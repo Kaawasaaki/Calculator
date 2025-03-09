@@ -1,0 +1,12 @@
+Q)Write a C++ program that creates a Calculator class. The class contains two variables of integer type. Design a constructor that accepts two values as parameter and set those values.  
+•	Design four methods named Add (), Subtract (), multiply (), Division ( ) for performing addition, subtraction, multiplication and division of two numbers.  
+
+
+•	For addition and subtraction, two numbers should be positive. 
+If any negative number is entered then throw an exception in respective methods. 
+So design an exception handler (ArithmeticException) in Add () and Subtract () methods respectively to check whether any number is negative or not. 
+
+
+•	For division and multiplication two numbers should not be zero. 
+If zero is entered for any number then throw an exception in respective methods. 
+So design an exception handler (ArithmeticException) in multiply () and Division () methods respectively to check whether any number is zero or not. 
